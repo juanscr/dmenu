@@ -13,8 +13,8 @@ static const char *prompt      = "Search:";
 static const char *colors[SchemeLast][2] = {
     [SchemeNorm]          = { "#F8F8F2", "#282A36" },
     [SchemeSel]           = { "#282A36", "#F8F8F2" },
-    [SchemeSelHighlight]  = { "#ffc978", "#005577" },
-	[SchemeNormHighlight] = { "#ffc978", "#222222" },
+    [SchemeSelHighlight]  = { "#282A36", "#FF5555" },
+	[SchemeNormHighlight] = { "#F8F8F2", "#282A36" },
 	[SchemeOut]           = { "#000000", "#00ffff" },
 };
 
