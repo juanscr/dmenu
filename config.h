@@ -4,9 +4,7 @@
 static int topbar = 1;
 
 // Fonts
-static const char *fonts[] = {
-	"JetBrains Mono:size=11"
-};
+static const char *fonts[] = { "JetBrains Mono:size=11" };
 
 // Added default layout
 static const char *prompt      = "Search:";
@@ -19,7 +17,7 @@ static const char *colors[SchemeLast][2] = {
 };
 
 // Number of vertical lines
-static unsigned int lines      = 0;
+static unsigned int lines = 0;
 
 // Default setting
 static const char worddelimiters[] = " ";
