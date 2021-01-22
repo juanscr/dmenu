@@ -1,0 +1,7 @@
+# Exclude executables
+*
+!/**/
+!*.*
+
+# Exclude extensions
+*.o
