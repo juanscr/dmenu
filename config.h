@@ -23,5 +23,5 @@ static unsigned int lines = 0;
 static const char worddelimiters[] = " ";
 
 // Line height of bar
-static unsigned int lineheight = 0;
+static unsigned int lineheight = 30;
 static unsigned int min_lineheight = 8;
