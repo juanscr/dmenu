@@ -14,8 +14,8 @@ static const char *colors[SchemeLast][2] = {
     [SchemeNorm]          = { "#F8F8F2", "#282A36" },
     [SchemeSel]           = { "#282A36", "#F8F8F2" },
     [SchemeSelHighlight]  = { "#282A36", "#FF5555" },
-	[SchemeNormHighlight] = { "#F8F8F2", "#282A36" },
-	[SchemeOut]           = { "#000000", "#00ffff" },
+    [SchemeNormHighlight] = { "#F8F8F2", "#282A36" },
+    [SchemeOut]           = { "#000000", "#00ffff" },
 };
 
 // Number of vertical lines
