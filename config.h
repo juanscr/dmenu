@@ -11,9 +11,11 @@ static const char *prompt      = "Search:";
 
 // Dracular color scheme
 static const char *colors[SchemeLast][2] = {
-	[SchemeNorm] = { "#F8F8F2", "#282A36" },
-	[SchemeSel]  = { "#282A36", "#F8F8F2" },
-	[SchemeOut]  = { "#000000", "#00ffff" },
+    [SchemeNorm]          = { "#F8F8F2", "#282A36" },
+    [SchemeSel]           = { "#282A36", "#F8F8F2" },
+    [SchemeSelHighlight]  = { "#ffc978", "#005577" },
+	[SchemeNormHighlight] = { "#ffc978", "#222222" },
+	[SchemeOut]           = { "#000000", "#00ffff" },
 };
 
 // Number of vertical lines
